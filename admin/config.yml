@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: your-github-username/your-repository-name
+  branch: main # or the branch you want to use for content
+media_folder: "src/assets/uploads" # Where images will be uploaded
+public_folder: "/assets/uploads" # Path to images after upload
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "src/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
