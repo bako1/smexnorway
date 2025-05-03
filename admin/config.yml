@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-github-username/your-repository-name
+  repo: bako1/smexnorway
   branch: main # or the branch you want to use for content
 media_folder: "src/assets/uploads" # Where images will be uploaded
 public_folder: "/assets/uploads" # Path to images after upload
